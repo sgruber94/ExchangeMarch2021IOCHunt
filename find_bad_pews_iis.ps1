@@ -9,4 +9,4 @@ $Matched = select-string -Path hunt.txt -Pattern $regex -AllMatches | % { $_.Mat
 
 $uniques = $Matched |Select-Object -Unique |Sort-Object
 
-$uniquesS
+$uniques
